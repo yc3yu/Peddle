@@ -14,6 +14,7 @@
 		64187FEF2BA57ED5007CC739 /* PeddleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64187FEE2BA57ED5007CC739 /* PeddleTests.swift */; };
 		64187FF92BA57ED5007CC739 /* PeddleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64187FF82BA57ED5007CC739 /* PeddleUITests.swift */; };
 		64187FFB2BA57ED5007CC739 /* PeddleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64187FFA2BA57ED5007CC739 /* PeddleUITestsLaunchTests.swift */; };
+		645DFA802BA6BD8000D2E78D /* CGFloat+Presets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645DFA7F2BA6BD8000D2E78D /* CGFloat+Presets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		64187FF42BA57ED5007CC739 /* PeddleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeddleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64187FF82BA57ED5007CC739 /* PeddleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeddleUITests.swift; sourceTree = "<group>"; };
 		64187FFA2BA57ED5007CC739 /* PeddleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeddleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		645DFA7F2BA6BD8000D2E78D /* CGFloat+Presets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Presets.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
