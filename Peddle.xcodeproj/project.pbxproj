@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0573CA5F8177D2BF79DC6A3D /* Pods_PeddleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6071150187C28D3120A302FD /* Pods_PeddleTests.framework */; };
+		3D458B5310A93A5CB4AD99A8 /* Pods_Peddle_PeddleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5246F8B5F625C61A4E8AB33 /* Pods_Peddle_PeddleUITests.framework */; };
 		64187FDE2BA57ED3007CC739 /* PeddleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64187FDD2BA57ED3007CC739 /* PeddleApp.swift */; };
 		64187FE02BA57ED3007CC739 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64187FDF2BA57ED3007CC739 /* ContentView.swift */; };
 		64187FE22BA57ED5007CC739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64187FE12BA57ED5007CC739 /* Assets.xcassets */; };
@@ -14,9 +16,11 @@
 		64187FEF2BA57ED5007CC739 /* PeddleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64187FEE2BA57ED5007CC739 /* PeddleTests.swift */; };
 		64187FF92BA57ED5007CC739 /* PeddleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64187FF82BA57ED5007CC739 /* PeddleUITests.swift */; };
 		64187FFB2BA57ED5007CC739 /* PeddleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64187FFA2BA57ED5007CC739 /* PeddleUITestsLaunchTests.swift */; };
+		6448F9745CA03A83C16B6726 /* Pods_Peddle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9CF0E6A57C29A335C37FA9 /* Pods_Peddle.framework */; };
 		645DFAA62BA6D22100D2E78D /* CGFloat+Presets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645DFAA02BA6D22100D2E78D /* CGFloat+Presets.swift */; };
 		645DFAA92BA6D27700D2E78D /* Font+Presets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645DFAA82BA6D27700D2E78D /* Font+Presets.swift */; };
 		645DFAAE2BA6D4C600D2E78D /* AssetNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645DFAAC2BA6D4C600D2E78D /* AssetNames.swift */; };
+		645DFAB12BA6D9A500D2E78D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 645DFAB02BA6D9A500D2E78D /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C52989E923CF8E14C765FDB /* Pods-Peddle-PeddleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peddle-PeddleUITests.debug.xcconfig"; path = "Target Support Files/Pods-Peddle-PeddleUITests/Pods-Peddle-PeddleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		329977E1C865233ACA0C14D7 /* Pods-PeddleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeddleTests.debug.xcconfig"; path = "Target Support Files/Pods-PeddleTests/Pods-PeddleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6071150187C28D3120A302FD /* Pods_PeddleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeddleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64187FDA2BA57ED3007CC739 /* Peddle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peddle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64187FDD2BA57ED3007CC739 /* PeddleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeddleApp.swift; sourceTree = "<group>"; };
 		64187FDF2BA57ED3007CC739 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +57,13 @@
 		645DFAA02BA6D22100D2E78D /* CGFloat+Presets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Presets.swift"; sourceTree = "<group>"; };
 		645DFAA82BA6D27700D2E78D /* Font+Presets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Presets.swift"; sourceTree = "<group>"; };
 		645DFAAC2BA6D4C600D2E78D /* AssetNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetNames.swift; sourceTree = "<group>"; };
+		645DFAB02BA6D9A500D2E78D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8D1025EC5591726AA817F37A /* Pods-Peddle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peddle.debug.xcconfig"; path = "Target Support Files/Pods-Peddle/Pods-Peddle.debug.xcconfig"; sourceTree = "<group>"; };
+		9876417AFE0D9487821D7DD6 /* Pods-Peddle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peddle.release.xcconfig"; path = "Target Support Files/Pods-Peddle/Pods-Peddle.release.xcconfig"; sourceTree = "<group>"; };
+		9F9CF0E6A57C29A335C37FA9 /* Pods_Peddle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Peddle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF850D6FEDBA4A80276EFBD8 /* Pods-Peddle-PeddleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peddle-PeddleUITests.release.xcconfig"; path = "Target Support Files/Pods-Peddle-PeddleUITests/Pods-Peddle-PeddleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E22A15FCC4B07FC43793CEB4 /* Pods-PeddleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeddleTests.release.xcconfig"; path = "Target Support Files/Pods-PeddleTests/Pods-PeddleTests.release.xcconfig"; sourceTree = "<group>"; };
+		F5246F8B5F625C61A4E8AB33 /* Pods_Peddle_PeddleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Peddle_PeddleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6448F9745CA03A83C16B6726 /* Pods_Peddle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0573CA5F8177D2BF79DC6A3D /* Pods_PeddleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,20 +87,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D458B5310A93A5CB4AD99A8 /* Pods_Peddle_PeddleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5895016901A2AA530F8962BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D1025EC5591726AA817F37A /* Pods-Peddle.debug.xcconfig */,
+				9876417AFE0D9487821D7DD6 /* Pods-Peddle.release.xcconfig */,
+				0C52989E923CF8E14C765FDB /* Pods-Peddle-PeddleUITests.debug.xcconfig */,
+				DF850D6FEDBA4A80276EFBD8 /* Pods-Peddle-PeddleUITests.release.xcconfig */,
+				329977E1C865233ACA0C14D7 /* Pods-PeddleTests.debug.xcconfig */,
+				E22A15FCC4B07FC43793CEB4 /* Pods-PeddleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		64187FD12BA57ED3007CC739 = {
 			isa = PBXGroup;
 			children = (
+				645DFAB02BA6D9A500D2E78D /* Podfile */,
 				64187FDC2BA57ED3007CC739 /* Peddle */,
 				645DFAA52BA6D22100D2E78D /* PeddleCore */,
 				64187FED2BA57ED5007CC739 /* PeddleTests */,
 				64187FF72BA57ED5007CC739 /* PeddleUITests */,
 				64187FDB2BA57ED3007CC739 /* Products */,
+				5895016901A2AA530F8962BF /* Pods */,
+				7AE56228BE5A1960AEFE5CDA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,6 +201,16 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		7AE56228BE5A1960AEFE5CDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F9CF0E6A57C29A335C37FA9 /* Pods_Peddle.framework */,
+				F5246F8B5F625C61A4E8AB33 /* Pods_Peddle_PeddleUITests.framework */,
+				6071150187C28D3120A302FD /* Pods_PeddleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64187FFE2BA57ED5007CC739 /* Build configuration list for PBXNativeTarget "Peddle" */;
 			buildPhases = (
+				01EAFCD593F7B3C4641D8635 /* [CP] Check Pods Manifest.lock */,
 				64187FD62BA57ED3007CC739 /* Sources */,
 				64187FD72BA57ED3007CC739 /* Frameworks */,
 				64187FD82BA57ED3007CC739 /* Resources */,
@@ -192,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 641880012BA57ED5007CC739 /* Build configuration list for PBXNativeTarget "PeddleTests" */;
 			buildPhases = (
+				58E08C684C981EF07973338B /* [CP] Check Pods Manifest.lock */,
 				64187FE62BA57ED5007CC739 /* Sources */,
 				64187FE72BA57ED5007CC739 /* Frameworks */,
 				64187FE82BA57ED5007CC739 /* Resources */,
@@ -210,6 +255,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 641880042BA57ED5007CC739 /* Build configuration list for PBXNativeTarget "PeddleUITests" */;
 			buildPhases = (
+				C76DDE2221C07C2C3679FEE7 /* [CP] Check Pods Manifest.lock */,
 				64187FF02BA57ED5007CC739 /* Sources */,
 				64187FF12BA57ED5007CC739 /* Frameworks */,
 				64187FF22BA57ED5007CC739 /* Resources */,
@@ -272,6 +318,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				645DFAB12BA6D9A500D2E78D /* Podfile in Resources */,
 				64187FE52BA57ED5007CC739 /* Preview Assets.xcassets in Resources */,
 				64187FE22BA57ED5007CC739 /* Assets.xcassets in Resources */,
 			);
@@ -292,6 +339,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01EAFCD593F7B3C4641D8635 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Peddle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58E08C684C981EF07973338B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PeddleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C76DDE2221C07C2C3679FEE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Peddle-PeddleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		64187FD62BA57ED3007CC739 /* Sources */ = {
@@ -460,6 +576,7 @@
 		};
 		64187FFF2BA57ED5007CC739 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D1025EC5591726AA817F37A /* Pods-Peddle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -491,6 +608,7 @@
 		};
 		641880002BA57ED5007CC739 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9876417AFE0D9487821D7DD6 /* Pods-Peddle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -522,6 +640,7 @@
 		};
 		641880022BA57ED5007CC739 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 329977E1C865233ACA0C14D7 /* Pods-PeddleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -542,6 +661,7 @@
 		};
 		641880032BA57ED5007CC739 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22A15FCC4B07FC43793CEB4 /* Pods-PeddleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -562,6 +682,7 @@
 		};
 		641880052BA57ED5007CC739 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C52989E923CF8E14C765FDB /* Pods-Peddle-PeddleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,6 +701,7 @@
 		};
 		641880062BA57ED5007CC739 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF850D6FEDBA4A80276EFBD8 /* Pods-Peddle-PeddleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
