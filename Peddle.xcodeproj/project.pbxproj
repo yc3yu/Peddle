@@ -14,7 +14,8 @@
 		64187FEF2BA57ED5007CC739 /* PeddleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64187FEE2BA57ED5007CC739 /* PeddleTests.swift */; };
 		64187FF92BA57ED5007CC739 /* PeddleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64187FF82BA57ED5007CC739 /* PeddleUITests.swift */; };
 		64187FFB2BA57ED5007CC739 /* PeddleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64187FFA2BA57ED5007CC739 /* PeddleUITestsLaunchTests.swift */; };
-		645DFA802BA6BD8000D2E78D /* CGFloat+Presets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645DFA7F2BA6BD8000D2E78D /* CGFloat+Presets.swift */; };
+		645DFAA62BA6D22100D2E78D /* CGFloat+Presets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645DFAA02BA6D22100D2E78D /* CGFloat+Presets.swift */; };
+		645DFAA92BA6D27700D2E78D /* Font+Presets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645DFAA82BA6D27700D2E78D /* Font+Presets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +46,8 @@
 		64187FF42BA57ED5007CC739 /* PeddleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeddleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64187FF82BA57ED5007CC739 /* PeddleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeddleUITests.swift; sourceTree = "<group>"; };
 		64187FFA2BA57ED5007CC739 /* PeddleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeddleUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		645DFA7F2BA6BD8000D2E78D /* CGFloat+Presets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Presets.swift"; sourceTree = "<group>"; };
+		645DFAA02BA6D22100D2E78D /* CGFloat+Presets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Presets.swift"; sourceTree = "<group>"; };
+		645DFAA82BA6D27700D2E78D /* Font+Presets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Presets.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				64187FDC2BA57ED3007CC739 /* Peddle */,
+				645DFAA52BA6D22100D2E78D /* PeddleCore */,
 				64187FED2BA57ED5007CC739 /* PeddleTests */,
 				64187FF72BA57ED5007CC739 /* PeddleUITests */,
 				64187FDB2BA57ED3007CC739 /* Products */,
@@ -127,6 +130,31 @@
 				64187FFA2BA57ED5007CC739 /* PeddleUITestsLaunchTests.swift */,
 			);
 			path = PeddleUITests;
+			sourceTree = "<group>";
+		};
+		645DFAA12BA6D22100D2E78D /* Presets */ = {
+			isa = PBXGroup;
+			children = (
+				645DFAA02BA6D22100D2E78D /* CGFloat+Presets.swift */,
+				645DFAA82BA6D27700D2E78D /* Font+Presets.swift */,
+			);
+			path = Presets;
+			sourceTree = "<group>";
+		};
+		645DFAA42BA6D22100D2E78D /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		645DFAA52BA6D22100D2E78D /* PeddleCore */ = {
+			isa = PBXGroup;
+			children = (
+				645DFAA12BA6D22100D2E78D /* Presets */,
+				645DFAA42BA6D22100D2E78D /* UIComponents */,
+			);
+			path = PeddleCore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				64187FE02BA57ED3007CC739 /* ContentView.swift in Sources */,
+				645DFAA92BA6D27700D2E78D /* Font+Presets.swift in Sources */,
 				64187FDE2BA57ED3007CC739 /* PeddleApp.swift in Sources */,
+				645DFAA62BA6D22100D2E78D /* CGFloat+Presets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
