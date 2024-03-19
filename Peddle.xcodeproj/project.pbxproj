@@ -18,7 +18,7 @@
 		645DFAA92BA6D27700D2E78D /* Font+Presets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645DFAA82BA6D27700D2E78D /* Font+Presets.swift */; };
 		64908F082BA98A6300F0D4C3 /* PeddleStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64908F072BA98A6300F0D4C3 /* PeddleStrings.swift */; };
 		64908F1C2BAA491A00F0D4C3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64908F1B2BAA491A00F0D4C3 /* ProfileView.swift */; };
-		64908F232BAA503300F0D4C3 /* ProfileTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64908F212BAA503300F0D4C3 /* ProfileTabBarItem.swift */; };
+		64908F232BAA503300F0D4C3 /* ProfileTabBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64908F212BAA503300F0D4C3 /* ProfileTabBarItemView.swift */; };
 		64908F262BAA527200F0D4C3 /* View+Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64908F242BAA527200F0D4C3 /* View+Modifiers.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,7 +54,7 @@
 		645DFAA82BA6D27700D2E78D /* Font+Presets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Presets.swift"; sourceTree = "<group>"; };
 		64908F072BA98A6300F0D4C3 /* PeddleStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeddleStrings.swift; sourceTree = "<group>"; };
 		64908F1B2BAA491A00F0D4C3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		64908F212BAA503300F0D4C3 /* ProfileTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTabBarItem.swift; sourceTree = "<group>"; };
+		64908F212BAA503300F0D4C3 /* ProfileTabBarItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTabBarItemView.swift; sourceTree = "<group>"; };
 		64908F242BAA527200F0D4C3 /* View+Modifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Modifiers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -196,7 +196,7 @@
 		64908F222BAA503300F0D4C3 /* NavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				64908F212BAA503300F0D4C3 /* ProfileTabBarItem.swift */,
+				64908F212BAA503300F0D4C3 /* ProfileTabBarItemView.swift */,
 			);
 			path = NavigationBar;
 			sourceTree = "<group>";
@@ -367,7 +367,7 @@
 				645DFAA92BA6D27700D2E78D /* Font+Presets.swift in Sources */,
 				64187FDE2BA57ED3007CC739 /* PeddleApp.swift in Sources */,
 				645DFAA62BA6D22100D2E78D /* CGFloat+Presets.swift in Sources */,
-				64908F232BAA503300F0D4C3 /* ProfileTabBarItem.swift in Sources */,
+				64908F232BAA503300F0D4C3 /* ProfileTabBarItemView.swift in Sources */,
 				64908F082BA98A6300F0D4C3 /* PeddleStrings.swift in Sources */,
 				64908F262BAA527200F0D4C3 /* View+Modifiers.swift in Sources */,
 			);
