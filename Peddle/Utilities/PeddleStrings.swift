@@ -7,6 +7,11 @@
 
 internal enum PeddleStrings {
 
+    // MARK: Globally-used strings
+
+    /// "Profile"
+    internal static let profile = "Profile"
+
     // MARK: Strings used to reference image names
 
     internal enum ImageNames {
