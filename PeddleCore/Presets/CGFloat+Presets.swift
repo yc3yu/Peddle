@@ -34,4 +34,3 @@ extension CGFloat {
     public static let extraLargeSpace: CGFloat = 64.0
 
 }
-
