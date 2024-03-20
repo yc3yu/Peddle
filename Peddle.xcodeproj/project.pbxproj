@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		64187FDE2BA57ED3007CC739 /* PeddleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64187FDD2BA57ED3007CC739 /* PeddleApp.swift */; };
-		64187FE02BA57ED3007CC739 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64187FDF2BA57ED3007CC739 /* ContentView.swift */; };
 		64187FE22BA57ED5007CC739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64187FE12BA57ED5007CC739 /* Assets.xcassets */; };
 		64187FE52BA57ED5007CC739 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64187FE42BA57ED5007CC739 /* Preview Assets.xcassets */; };
 		64187FEF2BA57ED5007CC739 /* PeddleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64187FEE2BA57ED5007CC739 /* PeddleTests.swift */; };
@@ -45,7 +44,6 @@
 /* Begin PBXFileReference section */
 		64187FDA2BA57ED3007CC739 /* Peddle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peddle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64187FDD2BA57ED3007CC739 /* PeddleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeddleApp.swift; sourceTree = "<group>"; };
-		64187FDF2BA57ED3007CC739 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		64187FE12BA57ED5007CC739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64187FE42BA57ED5007CC739 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64187FEA2BA57ED5007CC739 /* PeddleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeddleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,7 +115,6 @@
 				64908F092BA9903100F0D4C3 /* Features */,
 				645DFAAD2BA6D4C600D2E78D /* Utilities */,
 				64187FDD2BA57ED3007CC739 /* PeddleApp.swift */,
-				64187FDF2BA57ED3007CC739 /* ContentView.swift */,
 				64187FE12BA57ED5007CC739 /* Assets.xcassets */,
 				64187FE32BA57ED5007CC739 /* Preview Content */,
 			);
@@ -397,7 +394,6 @@
 			files = (
 				64908F2B2BAA55A300F0D4C3 /* HomeView.swift in Sources */,
 				64908F2F2BAA560000F0D4C3 /* TabBarView.swift in Sources */,
-				64187FE02BA57ED3007CC739 /* ContentView.swift in Sources */,
 				64908F1C2BAA491A00F0D4C3 /* ProfileView.swift in Sources */,
 				645DFAA92BA6D27700D2E78D /* Font+Presets.swift in Sources */,
 				64187FDE2BA57ED3007CC739 /* PeddleApp.swift in Sources */,
