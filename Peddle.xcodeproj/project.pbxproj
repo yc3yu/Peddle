@@ -22,6 +22,7 @@
 		64908F262BAA527200F0D4C3 /* View+Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64908F242BAA527200F0D4C3 /* View+Modifiers.swift */; };
 		64908F2B2BAA55A300F0D4C3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64908F272BAA55A300F0D4C3 /* HomeView.swift */; };
 		64908F2C2BAA55A300F0D4C3 /* ListingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64908F292BAA55A300F0D4C3 /* ListingsView.swift */; };
+		64908F2F2BAA560000F0D4C3 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64908F2E2BAA560000F0D4C3 /* TabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		64908F242BAA527200F0D4C3 /* View+Modifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Modifiers.swift"; sourceTree = "<group>"; };
 		64908F272BAA55A300F0D4C3 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		64908F292BAA55A300F0D4C3 /* ListingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListingsView.swift; sourceTree = "<group>"; };
+		64908F2E2BAA560000F0D4C3 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 				64908F282BAA55A300F0D4C3 /* Home */,
 				64908F2A2BAA55A300F0D4C3 /* Listings */,
 				64908F1A2BAA490B00F0D4C3 /* Profile */,
+				64908F2D2BAA55BF00F0D4C3 /* TabBar */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -229,6 +232,14 @@
 				64908F292BAA55A300F0D4C3 /* ListingsView.swift */,
 			);
 			path = Listings;
+			sourceTree = "<group>";
+		};
+		64908F2D2BAA55BF00F0D4C3 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				64908F2E2BAA560000F0D4C3 /* TabBarView.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64908F2B2BAA55A300F0D4C3 /* HomeView.swift in Sources */,
+				64908F2F2BAA560000F0D4C3 /* TabBarView.swift in Sources */,
 				64187FE02BA57ED3007CC739 /* ContentView.swift in Sources */,
 				64908F1C2BAA491A00F0D4C3 /* ProfileView.swift in Sources */,
 				645DFAA92BA6D27700D2E78D /* Font+Presets.swift in Sources */,
