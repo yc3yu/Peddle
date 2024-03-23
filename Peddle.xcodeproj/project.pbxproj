@@ -111,12 +111,12 @@
 		64187FDC2BA57ED3007CC739 /* Peddle */ = {
 			isa = PBXGroup;
 			children = (
-				64908F252BAA527200F0D4C3 /* Extensions */,
 				64908F092BA9903100F0D4C3 /* Features */,
+				64908F252BAA527200F0D4C3 /* Extensions */,
 				645DFAAD2BA6D4C600D2E78D /* Utilities */,
+				64187FE32BA57ED5007CC739 /* Preview Content */,
 				64187FDD2BA57ED3007CC739 /* PeddleApp.swift */,
 				64187FE12BA57ED5007CC739 /* Assets.xcassets */,
-				64187FE32BA57ED5007CC739 /* Preview Content */,
 			);
 			path = Peddle;
 			sourceTree = "<group>";
