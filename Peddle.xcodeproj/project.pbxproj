@@ -14,6 +14,7 @@
 		64187FF92BA57ED5007CC739 /* PeddleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64187FF82BA57ED5007CC739 /* PeddleUITests.swift */; };
 		64187FFB2BA57ED5007CC739 /* PeddleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64187FFA2BA57ED5007CC739 /* PeddleUITestsLaunchTests.swift */; };
 		64303ADF2BB3D88600686392 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64303ADE2BB3D88600686392 /* NetworkError.swift */; };
+		64303AE12BB3D8C800686392 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64303AE02BB3D8C800686392 /* NetworkRequest.swift */; };
 		645DFAA62BA6D22100D2E78D /* CGFloat+Presets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645DFAA02BA6D22100D2E78D /* CGFloat+Presets.swift */; };
 		645DFAA92BA6D27700D2E78D /* Font+Presets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645DFAA82BA6D27700D2E78D /* Font+Presets.swift */; };
 		64908F082BA98A6300F0D4C3 /* PeddleStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64908F072BA98A6300F0D4C3 /* PeddleStrings.swift */; };
@@ -53,6 +54,7 @@
 		64187FF82BA57ED5007CC739 /* PeddleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeddleUITests.swift; sourceTree = "<group>"; };
 		64187FFA2BA57ED5007CC739 /* PeddleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeddleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		64303ADE2BB3D88600686392 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		64303AE02BB3D8C800686392 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 		645DFAA02BA6D22100D2E78D /* CGFloat+Presets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Presets.swift"; sourceTree = "<group>"; };
 		645DFAA82BA6D27700D2E78D /* Font+Presets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Presets.swift"; sourceTree = "<group>"; };
 		64908F072BA98A6300F0D4C3 /* PeddleStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeddleStrings.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				64303ADE2BB3D88600686392 /* NetworkError.swift */,
+				64303AE02BB3D8C800686392 /* NetworkRequest.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				64908F082BA98A6300F0D4C3 /* PeddleStrings.swift in Sources */,
 				64908F262BAA527200F0D4C3 /* View+Modifiers.swift in Sources */,
 				64303ADF2BB3D88600686392 /* NetworkError.swift in Sources */,
+				64303AE12BB3D8C800686392 /* NetworkRequest.swift in Sources */,
 				64908F2C2BAA55A300F0D4C3 /* ListingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
