@@ -177,18 +177,11 @@
 			path = Presets;
 			sourceTree = "<group>";
 		};
-		645DFAA42BA6D22100D2E78D /* UIComponents */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UIComponents;
-			sourceTree = "<group>";
-		};
 		645DFAA52BA6D22100D2E78D /* PeddleCore */ = {
 			isa = PBXGroup;
 			children = (
 				645DFAA12BA6D22100D2E78D /* Presets */,
-				645DFAA42BA6D22100D2E78D /* UIComponents */,
+				648CA22B2BB4DFF30060C774 /* UIComponents */,
 			);
 			path = PeddleCore;
 			sourceTree = "<group>";
@@ -199,6 +192,13 @@
 				64908F072BA98A6300F0D4C3 /* PeddleStrings.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		648CA22B2BB4DFF30060C774 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIComponents;
 			sourceTree = "<group>";
 		};
 		64908F092BA9903100F0D4C3 /* Features */ = {
