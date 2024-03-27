@@ -11,6 +11,6 @@ enum APIEndpoints {
     enum Peddle: String, APIProtocol {
         static let baseUrl = "" // Replace later when endpoint is set up
 
-        case servicesList = "services-list"
+        case servicesList = "/services-list"
     }
 }
