@@ -9,7 +9,7 @@ import Foundation
 
 enum APIEndpoints {
     enum Peddle: String, APIProtocol {
-        static let baseUrl = URL(string: "") // Replace later when endpoint is set up
+        static let baseUrl = "" // Replace later when endpoint is set up
 
         case servicesList = "services-list"
     }

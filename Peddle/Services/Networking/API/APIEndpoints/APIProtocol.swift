@@ -8,5 +8,5 @@
 import Foundation
 
 protocol APIProtocol {
-    static var baseUrl: URL? { get }
+    static var baseUrl: String { get }
 }
