@@ -18,6 +18,7 @@
 		645DFAA62BA6D22100D2E78D /* CGFloat+Presets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645DFAA02BA6D22100D2E78D /* CGFloat+Presets.swift */; };
 		645DFAA92BA6D27700D2E78D /* Font+Presets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645DFAA82BA6D27700D2E78D /* Font+Presets.swift */; };
 		648CA2332BB4E2290060C774 /* APIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648CA2322BB4E2290060C774 /* APIProtocol.swift */; };
+		648CA2352BB4E2C10060C774 /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648CA2342BB4E2C10060C774 /* APIEndpoints.swift */; };
 		64908F082BA98A6300F0D4C3 /* PeddleStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64908F072BA98A6300F0D4C3 /* PeddleStrings.swift */; };
 		64908F1C2BAA491A00F0D4C3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64908F1B2BAA491A00F0D4C3 /* ProfileView.swift */; };
 		64908F232BAA503300F0D4C3 /* ProfileTabBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64908F212BAA503300F0D4C3 /* ProfileTabBarItemView.swift */; };
@@ -59,6 +60,7 @@
 		645DFAA02BA6D22100D2E78D /* CGFloat+Presets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Presets.swift"; sourceTree = "<group>"; };
 		645DFAA82BA6D27700D2E78D /* Font+Presets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Presets.swift"; sourceTree = "<group>"; };
 		648CA2322BB4E2290060C774 /* APIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProtocol.swift; sourceTree = "<group>"; };
+		648CA2342BB4E2C10060C774 /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
 		64908F072BA98A6300F0D4C3 /* PeddleStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeddleStrings.swift; sourceTree = "<group>"; };
 		64908F1B2BAA491A00F0D4C3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		64908F212BAA503300F0D4C3 /* ProfileTabBarItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTabBarItemView.swift; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				648CA2322BB4E2290060C774 /* APIProtocol.swift */,
+				648CA2342BB4E2C10060C774 /* APIEndpoints.swift */,
 			);
 			path = APIEndpoints;
 			sourceTree = "<group>";
@@ -434,6 +437,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64908F2B2BAA55A300F0D4C3 /* HomeView.swift in Sources */,
+				648CA2352BB4E2C10060C774 /* APIEndpoints.swift in Sources */,
 				64908F2F2BAA560000F0D4C3 /* TabBarView.swift in Sources */,
 				64908F1C2BAA491A00F0D4C3 /* ProfileView.swift in Sources */,
 				648CA2332BB4E2290060C774 /* APIProtocol.swift in Sources */,
