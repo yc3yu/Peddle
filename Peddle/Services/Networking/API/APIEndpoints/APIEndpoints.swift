@@ -8,9 +8,17 @@
 import Foundation
 
 enum APIEndpoints {
-    enum Peddle: String, APIProtocol {
-        static let baseUrl = URL(string: "") // Replace later when endpoint is set up
+    enum Peddle: APIProtocol {
+        static let baseUrl = "" // Replace later when endpoint is set up
 
-        case servicesList = "services-list"
+        case basePathOnly
+        case servicesList
+
+        var rawValue: String {
+            switch self {
+            case .basePathOnly: return ""
+            case .servicesList: return "/services-list"
+            }
+        }
     }
 }

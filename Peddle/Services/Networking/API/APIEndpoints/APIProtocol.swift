@@ -7,6 +7,12 @@
 
 import Foundation
 
-protocol APIProtocol {
-    static var baseUrl: URL? { get }
+protocol APIProtocol: RawRepresentable<String> {
+    static var baseUrl: String { get }
+}
+
+extension APIProtocol {
+    init?(rawValue: String) {
+        nil
+    }
 }
